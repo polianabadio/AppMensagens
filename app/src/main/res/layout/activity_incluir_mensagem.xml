@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_buscar_mensagem"
+        style="@style/Button"
+        android:layout_marginTop="20dp"
+        android:text="Buscar mensagem"
+        />
+
+    <TextView
+        android:id="@+id/respostaMensagem"
+        android:text="Resposta com a mensagem"
+        style="@style/Titulo"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_adicionar_mensagem"
+        style="@style/Button"
+        android:layout_marginTop="20dp"
+        android:text="Adicionar mensagem"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_voltar"
+        style="@style/Button"
+        android:layout_marginTop="20dp"
+        android:text="Voltar"
+        />
+</LinearLayout>

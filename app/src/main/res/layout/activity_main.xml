@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_incluir_mensagem"
+        style="@style/Button"
+        android:layout_marginTop="50dp"
+        android:text="Incluir mensagem"
+        />
+
+    <TextView
+        android:id="@+id/txtListaMensagens"
+        android:text="Mensagens cadastradas:"
+        style="@style/Titulo"
+        android:layout_marginTop="20dp"/>
+
+    <ListView
+        android:id="@+id/listaMensagens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"/>
+
+</LinearLayout>
